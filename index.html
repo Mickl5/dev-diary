@@ -166,10 +166,12 @@
             <h1>Log 9: march 30th, finishing skee-ball and starting next mini-game</h1>
         </div>
         <p>
-            The only thing left to finish in skee-ball was making a way to aim where you want to shoot. I decided to make an arrow model in blender, to be used to show where 
-            the player is aiming. As I made the arrow vertically in blender, I had to rotate it in unity, which caused some issues with where the ball was firing as I had to change Claudes code from aiming from the camera, to the arrow.
-            I used a similar idea as what I learned from the scoreboard, where I used an empty game object to rotate the arrow around, which the player controls with the left and right arrow (or a/d), and use its axes for the balls direction.
-            I also added a background, and changed the code Claude gave me for the balls arc, so that it rolls up the ramp rather than firing forwards. Now that it's finished I can move onto the next mini-game, and for my first game,
+            The only thing left to finish in skee-ball was creating a way for the player to aim their shots.
+             I decided to model an arrow in Blender to visually show where the player is aiming.
+              Since I made the arrow vertically in Blender, I had to rotate it in Unity, which caused some issues with how the ball was firing.
+             I ended up changing Claude’s original code, which aimed from the camera, so it would instead aim from the arrow.
+            I wrote the code for moving the arrow, and linking its direction to the balls launch, using what I learned from the scoreboard, where I used an empty GameObject to rotate the arrow around, which the player controls with the left and right arrow (or a/d), and use its axes for the balls direction.
+            I also added and made an asset that looks like a circus tent as a background, and changed the code Claude gave me for the balls arc, so that it rolls up the ramp rather than firing forwards. Now that it's finished I can move onto the next mini-game, and for my first game,
             I'm happy with how it's turned out. I've also attached some quick gameplay below!
         </p>
         <img src="claude code.png">
